@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <title>Home</title>
+  <link rel="stylesheet" href="index.css"> <!-- Linking the CSS page -->
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Setting the viewport so the website looks good on all devices -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Adds Font Awesome for the triangle in the dropdown menu -->
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <a class=button href="index.html">Home</a> <!-- Home button -->
+  <a class = button href="https://www.un.org/sustainabledevelopment/education/" target="_blank">UNSDG</a> <!-- UNSDG button -->
+  <a class = button href="Illiteracy Problems.html">Illiteracy Problems</a> <!-- Illiteracy Prolems button -->
+ <div class="dropdown">
+      <button class="dropbtn">How to Help <!-- Dropdown menu button -->
+          <i class="fa fa-caret-down"></i> <!-- Triangle -->
+      </button>
+      <div class="dropdown-content"> <!-- Dropdown menu contents -->
+          <a href="https://sdgs.un.org/goals/goal4" target="_blank">UNSDG Donation</a>
+          <a href="https://www.roomtoread.org/" target="_blank">Room to Read</a>
+          <a href="https://worldliteracyfoundation.org/" target="_blank">World Literacy Foundation</a>
+          <a href="https://rif.org/" target="_blank">Reading is Fundamental</a>
+          <a href="https://bookaid.org" target="_blank">Book Aid International</a>
+          <a href="https://www.dgliteracy.org" target="_blank">Dollar General Literacy</a>
+      </div>
+  </div> 
+</div>
+
+<!-- Fact paragraph -->
+<div class = "factdiv">
+  <pre><i>    773 Million people around the world are illiterate.</i></pre> 
+</div>
+
+<!-- Illiteracy Map -->
+<div class=mapdiv>
+  <br>
+  <img class=map src="Illiteracy Map 3.png">
+</div>
+<div class=mapdiv>
+<p>Currently, 773 million people around the world are illiterate who cannot read and write (UNESCO, 2021). 
+  These people are at a significant disadvantage to get jobs and make a living to meet basic needs. 
+  According to Statista (2020), many places around the world (e.g. Sub-Saharan African 34.7%, 
+  South Asia 27.1%, and the Arab States 20.6%) have a very high percentage of illiteracy rate. 
+  For example, 81% of adults in Niger and 68% of adults in South Sudan cannot read and write 
+  (Our World in Data, 2018). Sadly, illiteracy is a problem in many countries.</p>
+</div>
+
+
+
+<!-- Pictures with Captions -->
+
+<table class=tb style="padding-top: 0.75cm;"> <!-- Table for the images -->
+  <tr> <!-- First Row (Images row 1)-->
+    <td><img class = tableimage src="Illiterate 3.png"></td>
+    <td><img class = tableimage src="Illiterate 4.png"></td>
+  </tr>
+  <tr> <!-- Second Row (Captions row 1)-->
+    <td><p class = tablecaption>Illiterate adults are more likely to be in poverty</p></td>
+    <td><p class = tablecaption>Illiterate adults are more likely to be unemployed</p></td>
+  </tr>
+  <tr> <!-- Third Row (Images row 2)-->
+    <td><img class = tableimage src="Illiteracy 1.jpeg"></td>
+    <td><img class = tableimage src="Illiterate 2.jpeg"></td>
+  </tr>
+  <tr> <!-- Fourth Row (Captions row 2)-->
+    <td><p class = tablecaption>Illiterate parents usually have illiterate children</p></td>
+    <td><p class = tablecaption>Illiterates have a lower self-esteem</p></td>
+  </tr>
+</table>
+
+
+<!-- Infographics -->
+<div class="flex-container"> <!-- Flex container so all the infographics fill up the space entirely -->
+  <img class = infographic src="Infographic 1.jpeg">
+  <img class = infographic src="Infographic 2.jpeg">
+  <img class = infographic src="Infographic 3.jpeg">
+  <img class = infographic src="Infographic 4.jpeg">
+  <img class = infographic src="Infographic 5.jpeg">
+  <img class = infographic src="Infographic 6.jpeg">
+  <img class = infographic src="Infographic 7.jpeg">
+  <img class = infographic src="Infographic 8.jpeg">
+</div>
+
+<!-- Images with links -->
+<div class=linkdiv>
+  <br>
+  <a href="Illiteracy Problems.html" target="_blank"><img class = linkimage src="Illiterate 5.jpeg"></a>
+  <!-- Image link 1 -->
+  <br>
+  <a class=linkimage href="Illiteracy Problems.html" target="_blank">Learn more about illiteracy here</a>
+  <!-- Link 1 -->
+</div>
+<div class=linkdiv>
+  <a href="https://www.scholastic.com/site/summer/home.html" target="_blank"><img class = linkimage src="Literate 1.jpeg"></a>
+  <!-- Image link 2-->
+  <a class=linkimage href="https://www.scholastic.com/site/summer/home.html" target="_blank">Literacy Resources</a>
+  <!-- Link 2 -->
+  <a class=linkimage href="https://www.biblionasium.com/#tab/content-popular-series" target="_blank">More Literacy Resources</a>
+  <!-- Link 3 -->
+  <br>
+</div>
+
+<!-- UNSDG -->
+<div class="unsdgdiv">
+  <pre>The UN made a goal that 
+
+  <i><b>“By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy”. </b></i>
+  </pre>
+</div>
+
+
+<!-- How to Help Button -->
+<script type="text/javascript">
+  function randomlinks(){
+      var myrandom=Math.floor(Math.random()*6) // Random integer generator between 0 and 5
+      var links=new Array() // Creating the new "links" array
+      links[0]="https://worldliteracyfoundation.org/donate/"
+      links[1]="https://www.roomtoread.org/support-education/"
+      links[2]="https://secure.rif.org/page/19541/donate/1"
+      links[3]="https://bookaid.org/donate/"
+      links[4]="https://clifonline.org/how-to-help/"
+      links[5]="https://www.dgliteracy.org/"
+   
+      window.location=links[myrandom] 
+      // Sending the user to the link's hash value corresponding to the randomly generated integer
+  }
+</script>
+  
+<div class="container">
+  <form class="center">
+    <input class="help" type="button" value="Click Here to Help!" onClick="randomlinks()">
+    <!-- The button to run the randomlinks() function -->
+  </form>
+</div>
+<div class="base">
+  <br>
+  <p>There are 6 different organizations for you to help</p> <!-- Text explaining what the button does -->
+</div>
